@@ -89,15 +89,15 @@ public class Tab1adapter extends BaseAdapter {
                         if (upten.isEmpty() || upmmh.isEmpty() || updiem.isEmpty()) {
                             Toast.makeText(context, "không để rỗng", Toast.LENGTH_SHORT).show();
                         } else {
-                            Sinhvien sinhvien1 = (Sinhvien) getItem(i);
-                            sinhvien1.name = upten;
-                            sinhvien1.mamh = upmmh;
-                            sinhvien1.diem = updiem;
-                            SinhvienDAO sinhvienDAO = new SinhvienDAO(context);
-                            sinhvienDAO.sua(sinhvien);
-                            Toast.makeText(context, "sửa thành công", Toast.LENGTH_SHORT).show();
-                            notifyDataSetChanged();
-                            dialog.dismiss();
+//                            Sinhvien sinhvien1 = (Sinhvien) getItem(i);
+//                            sinhvien1.name = upten;
+//                            sinhvien1.mamh = upmmh;
+//                            sinhvien1.diem = updiem;
+//                            SinhvienDAO sinhvienDAO = new SinhvienDAO(context);
+//                            sinhvienDAO.sua(sinhvien);
+//                            Toast.makeText(context, "sửa thành công", Toast.LENGTH_SHORT).show();
+//                            notifyDataSetChanged();
+//                            dialog.dismiss();
                         }
 
                     }
