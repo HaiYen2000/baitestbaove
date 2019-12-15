@@ -50,9 +50,9 @@ public class Tab1adapter extends BaseAdapter {
         TextView id = v.findViewById(R.id.tvmasv);
         TextView name = v.findViewById(R.id.tvname);
         TextView mmh = v.findViewById(R.id.tvmmh);
-        TextView diem = v.findViewById(R.id.tvdiem);
-        ImageView imgxoa = v.findViewById(R.id.imgdelete);
-        ImageView imgupdate = v.findViewById(R.id.imgupdate);
+//        TextView diem = v.findViewById(R.id.tvdiem);
+//        ImageView imgxoa = v.findViewById(R.id.imgdelete);
+//        ImageView imgupdate = v.findViewById(R.id.imgupdate);
 
 
         final Sinhvien sinhvien = list.get(i);
