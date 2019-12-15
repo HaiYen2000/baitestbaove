@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#BBBBBB"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="mời bạn nhập thông tin muốn update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<EditText
+    android:hint="mời nhập name"
+    android:id="@+id/edtupdatename"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:hint="mời nhập mã môn học"
+        android:id="@+id/edtupdatemmh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="mời nhập điểm môn học"
+        android:id="@+id/edtupdatediem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:textColor="@android:color/white"
+        android:background="#222"
+        android:id="@+id/btndong"
+        android:layout_width="wrap_content"
+        android:text="cancel"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="#66CC00"
+        android:id="@+id/btnupdate"
+        android:layout_width="wrap_content"
+        android:text="update"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</LinearLayout>

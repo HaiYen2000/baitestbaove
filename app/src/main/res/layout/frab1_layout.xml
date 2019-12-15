@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:id="@+id/aaa"
+    android:layout_height="match_parent">
+<EditText
+    android:hint="mời nhập mã sinh viên"
+    android:id="@+id/edtmsv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:hint="mời nhập tên sinh viên"
+        android:id="@+id/edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="mã môn học"
+        android:id="@+id/edtmmh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:inputType="number"
+        android:hint="điểm môn học"
+        android:id="@+id/edtdiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+ <LinearLayout
+     android:orientation="horizontal"
+     android:gravity="center"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button
+         android:onClick="addFrag"
+         android:id="@+id/btnadd"
+         android:text="thêm"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+     <Button
+         android:onClick="addFrag"
+         android:id="@+id/btngetall"
+         android:text="tính điểm tb"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+ </LinearLayout>
+</LinearLayout>

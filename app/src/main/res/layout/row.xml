@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#003366"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:layout_width="6dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Mã sv" />
+
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Name" />
+
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Mã môn" />
+
+        <TextView
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Điểm" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></ListView>
+<!--<androidx.recyclerview.widget.RecyclerView-->
+    <!--android:id="@+id/car"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>-->
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_weight="10"
+       android:layout_height="wrap_content">
+       <TextView
+       android:textColor="@android:color/holo_red_dark"
+           android:textSize="25dp"
+           android:layout_weight="6"
+           android:text="điểm trung bình của sinh viên:"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content" />
+       <!--<TextView-->
+           <!--android:layout_weight="3"-->
+           <!--android:id="@+id/tvtinh"-->
+           <!--android:text="tính"-->
+           <!--android:layout_width="100dp"-->
+           <!--android:layout_height="wrap_content" />-->
+       <TextView
+           android:layout_weight="3"
+           android:id="@+id/tvdiemtb"
+           android:text="điểm tb"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content" />
+   </LinearLayout>
+
+</LinearLayout>
